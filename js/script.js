@@ -8,4 +8,10 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
+$("#shoot").click(function(){
+    var input= $("#input").val();
+    $("#userChoice").html(input);
+    a= ["rock" , "paper" , "scissors"]
+});
+
 
